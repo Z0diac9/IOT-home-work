@@ -79,6 +79,8 @@ form .input-box span.Email{
          color: #ffffff;
          background: #3182d1;
          border-radius: 15px;
-         cursor: pointer;
-         
+         cursor: pointer;    
+     }
+form .button input:hover{
+         background-color: #428bd4;
      }
