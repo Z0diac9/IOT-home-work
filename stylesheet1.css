@@ -1,0 +1,76 @@
+body{
+    background-color: #ccd1dd;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+.container .Verification {
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+hr{
+    color: black;
+}
+.container .Authenticator {
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 8fr 2fr;
+    
+    
+}
+.container .Authenticator h2{
+    color: rgb(0, 0, 0);
+    height: 30px;
+    display: inline-flex;
+   
+
+} 
+.container .Authenticator span{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color:  #c5dfe7;
+    color: black;
+}
+.container .Authenticator .content1 p{
+    margin-top: 15px;
+}
+.container .Mobile {
+    display: grid;
+    grid-template-columns: 1fr 8fr 2fr;
+}
+.container .Mobile .icon{
+    color: grey;
+    display: inline-flex;
+    font-size:50px;
+    margin: 30px;
+    margin-top: 25px;
+}
+.container .Authenticator .icon{
+    color: grey;
+    display: inline-flex;
+    font-size:50px;
+    margin: 20px;
+    margin-top: 25px;
+}
+.container .button input{
+   background-color: aqua;
+   margin-top: 35px;
+   outline: none;
+   border: none;
+   font-size: 20px;
+   width: 80%;
+   height:42px ;
+   color: #ffffff;
+   background: #3182d1;
+   border-radius: 15px;
+   cursor: pointer;
+}
+.button input:hover{
+    background-color: #428bd4;
+}
